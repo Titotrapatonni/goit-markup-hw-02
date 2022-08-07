@@ -1,0 +1,66 @@
+/* White primary color for background and lot of text #FFFFFF; */
+/* Background secondary color #F5F4FA; */
+/* Hero and footer background color #2F303A; */
+/* Text primary color #212121; */
+/* Text secondary color #757575; */
+/* Hover and secondary buttons color #2196F3; */
+/* Primary button color #F5F4FA; */
+/* Primary logo color #000000 */
+:root {
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f4fa;
+  --background-footer-color: #2f303a;
+  --hero-color: #2f303a;
+  --text-primary-color: #212121;
+  --text-secondary-color: #757575;
+  --text-hero-color: #ffffff;
+  --text-hover-color: #2196f3;
+  --button-primary-color: #f5f4fa;
+  --button-secondary-color: #2196f3;
+  --button-text-primary-color: #212121;
+  --button-text-secondary-color: #ffffff;
+  --logo-web-color: #2196f3;
+  --logo-header-color: #000000;
+  --logo-footer-color: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-primary-color);
+  color: var(--text-primary-color);
+}
+/* Header */
+/* Logo` */
+.logo {
+  color: var(--logo-web-color);
+}
+.logo-header {
+  color: var(--logo-header-color);
+}
+.logo-footer {
+  color: var(--logo-footer-color);
+}
+/* Navigation */
+.nav-list-item {
+  color: var(--text-primary-color);
+}
+.nav-list-item:hover {
+  color: var(--text-hover-color);
+}
+/* Contacts */
+.contact-list-item {
+  color: var(--text-secondary-color);
+}
+.contact-list-item:hover {
+  color: var(--text-hover-color);
+}
+/* Main */
+/* Hero */
+.hero {
+  background-color: var(--hero-color);
+  color: var(--text-hero-color);
+}
+/* Button Order */
+.button-order {
+  background-color: var(--button-secondary-color);
+  color: var(var(--button-text-secondary-color));
+}
