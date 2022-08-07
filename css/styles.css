@@ -1,4 +1,4 @@
-/* White primary color for background and lot of text #FFFFFF; */
+/* Background primary color #F5F5F5;; */
 /* Background secondary color #F5F4FA; */
 /* Hero and footer background color #2F303A; */
 /* Text primary color #212121; */
@@ -7,9 +7,10 @@
 /* Primary button color #F5F4FA; */
 /* Primary logo color #000000 */
 :root {
-  --background-primary-color: #ffffff;
+  --background-primary-color: #F5F5F5;
   --background-secondary-color: #f5f4fa;
   --background-footer-color: #2f303a;
+  --background-header-color: #ffffff;
   --hero-color: #2f303a;
   --text-primary-color: #212121;
   --text-secondary-color: #757575;
@@ -29,6 +30,9 @@ body {
   color: var(--text-primary-color);
 }
 /* Header */
+.header {
+    background-color: var(--background-header-color);
+}
 /* Logo` */
 .logo {
   color: var(--logo-web-color);
@@ -63,4 +67,21 @@ body {
 .button-order {
   background-color: var(--button-secondary-color);
   color: var(var(--button-text-secondary-color));
+}
+/* Speciality */
+.speciality {
+    background-color: var(--background-primary-color);
+}
+.speciality-list-title {
+    color: var(--text-primary-color);
+}
+.speciality-description {
+    color: var(--text-secondary-color);
+}
+/* What we do */
+.what-we-do {
+    background-color: var(--background-primary-color);
+}
+.wwd-title {
+    color: var(--text-primary-color);
 }
