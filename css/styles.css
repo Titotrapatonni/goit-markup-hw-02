@@ -40,6 +40,13 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
 .logo {
   font-family: var(--font-secondary);
   font-weight: 700;
@@ -58,8 +65,6 @@ body {
 .nav-list,
 .title {
   color: var(--text-secondary-color);
-}
-.contact-list {
 }
 /* Hero */
 .hero {
@@ -84,6 +89,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 /* Speciality */
 .speciality .title {
@@ -93,8 +99,6 @@ body {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-}
-.speciality-description {
 }
 /* What we do */
 .wwd-title,
@@ -131,6 +135,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  cursor: pointer;
 }
 .filter:hover,
 .filter:focus {
@@ -167,14 +172,10 @@ body {
   color: var(--text-contacts-color);
 }
 /* Hover */
-.address-item:hover,
-.nav-list-item:hover,
-.contact-list-item:hover {
+.link:hover {
   color: var(--text-hover-color);
 }
 /* Focus */
-.address-item:focus,
-.nav-list-item:focus,
-.contact-list-item:focus {
+.link:focus {
   color: var(--text-hover-color);
 }
