@@ -67,6 +67,9 @@ body {
 .title {
   color: var(--text-secondary-color);
 }
+.current {
+  color: var(--text-hover-color);
+}
 /* Hero */
 .hero {
   background-color: var(--bg-hero-color);
