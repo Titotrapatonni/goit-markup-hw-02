@@ -18,8 +18,8 @@
   --logo-header-color: #000000;
   --logo-footer-color: #ffffff;
 
-  --main-font: "Roboto", sans-serif;
-  --font-secondary: "Raleway", sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --font-secondary: 'Raleway', sans-serif;
 }
 body {
   font-family: var(--main-font);
