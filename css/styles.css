@@ -95,10 +95,6 @@ body {
   cursor: pointer;
 }
 /* Speciality */
-.speciality,
-.what-we-do {
-  background-color: var(--bg-primary-color);
-}
 .speciality .title {
   font-size: 14px;
 }
@@ -151,9 +147,6 @@ body {
 }
 /* Main Portfolio */
 /* Projects */
-.projects {
-  background-color: var(--bg-primary-color);
-}
 .project-item {
   background-color: var(--bg-tertiary-color);
   width: 370px;
